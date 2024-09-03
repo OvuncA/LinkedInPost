@@ -1,4 +1,4 @@
-# Linkedin Post Crew
+# Linkedin Post Generator
 
 Linkedin Post project leverages AI to automatically search for the latest and most relevant news in AI, machine learning, and generative AI technologies. It then generates concise and engaging posts tailored for LinkedIn feeds, helping professionals stay updated and share industry insights effortlessly. The project uses a multi-agent AI system to delegate tasks between different AI agents to leverage LLM's capabilities to complete a task more efficiently by making them working together and maximizes efficiency.
 
@@ -45,13 +45,3 @@ This example, unmodified, will run the create a `report.md` file with the output
 ## Understanding Your Crew
 
 The socialpost Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the Socialpost Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
