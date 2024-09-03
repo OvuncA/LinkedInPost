@@ -1,0 +1,46 @@
+research_task:
+  description: >
+    Conduct a thorough research about the latest news on {topic} technology.
+    Be sure to look for sources that are reliable and publish recent news. 
+    Do not include articles that are not directly related to {topic} technology.
+    With this research, compile a list of the most relevant news and stories that you found. 
+
+    Follow these rules:
+    - Only include articles that are especially relevant to {topic} technology. Do not include any news that are not directly related to {topic}. 
+    - Summarize the news in a few sentences. Make the summary as long as necessary to include all the relevant information, but not too long.
+    - Include the URL of the article where you found the article.
+    - Include maximum of 5 articles in the list.
+    - When using the Search Tool, your search query should be concise (for example, "latest news on {topic} technology").
+
+    IMPORTANT INSTRUCTIONS ABOUT USING TOOLS: When using tools, DO NOT ESCAPE the underscore character "_", EVER. If you need to use a tool and pass in a parameter called 'search_query', you should write 'search_query', not 'search\_query'. THIS IS VERY IMPORTANT, else the tool will not work.
+
+  expected_output: >
+    A markdown document with the most relevant news stories. Each news story should contain the following:
+    - Title of the news
+    - Summary of the news
+    - URL of the article where the news was found
+
+    Here is an example of the format of a news article that you could include in the document:
+    
+    <EXAMPLE>
+      Story 1:
+      - Title: **Daily briefing: AI now beats humans at basic reading and maths**
+      - **Summary:** AI systems can now nearly match and sometimes exceed human performance in basic tasks. The report discusses the need for new benchmarks to assess AI capabilities and highlights the ethical considerations for AI models.
+      - **URL:** [Nature Article](https://www.nature.com/articles/d41586-024-01125-1)
+    </EXAMPLE>
+
+
+postCreation_task:
+  description: >
+    Create a captivating and engaging Linkedin posts from the given article list of most relevant news stories. The linkedin posts should engage the audience, embody the topic's voice, 
+    and encourage interaction. The copy should incorporate the relevant keywords and hashtags. 
+
+    Consider the following guidelines when writing the post:
+    - Add an engaging and interesting paragraph to the post that explains the subject of the article how it can impact the industry or the readers in the style of a linkedin post.
+    - Verify that the articles are directly related to {topic} topics and that they are not off-topic.
+    - Verify that the URLs are correct and that they lead to the correct news article. They should lead to a news article and not to a list of articles or the front page of a website. If the URL is incorrect, ask the researcher to provide the correct URL.
+    - Keep the copy concise and engaging.
+    - Use relevant keywords and hashtags.
+
+  expected_output: >
+    A document of well formatted linkedin post for each article that contains the source URL of the article and related hashtags for linkedin post.
