@@ -1,6 +1,6 @@
-# Socialpost Crew
+# Linkedin Post Crew
 
-Welcome to the Socialpost Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Linkedin Post project leverages AI to automatically search for the latest and most relevant news in AI, machine learning, and generative AI technologies. It then generates concise and engaging posts tailored for LinkedIn feeds, helping professionals stay updated and share industry insights effortlessly. The project uses a multi-agent AI system to delegate tasks between different AI agents to leverage LLM's capabilities to complete a task more efficiently by making them working together and maximizes efficiency.
 
 ## Installation
 
